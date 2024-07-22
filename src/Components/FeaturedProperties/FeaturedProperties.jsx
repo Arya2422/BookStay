@@ -1,5 +1,5 @@
 import "./FeaturedProperties.css";
-
+import image1 from '../Assets/image1.png;
 const FeaturedProperties = () => {
   return (
     <div className="fp">
@@ -19,7 +19,7 @@ const FeaturedProperties = () => {
       </div>
       <div className="fpItem">
         <img
-          src="https://cf.bstatic.com/xdata/images/hotel/max1280x900/215955381.jpg?k=ff739d1d9e0c8e233f78ee3ced82743ef0355e925df8db7135d83b55a00ca07a&o=&hp=1"
+          src={image1}
           alt=""
           className="fpImg"
         />
